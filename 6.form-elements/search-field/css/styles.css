@@ -7,7 +7,10 @@
   
   display: inline-block;
   vertical-align: middle;
-  
+  background-image: url(https://netology-code.github.io/html-2-homeworks/form-elements/search-field/img/search.svg);
+  background-repeat: no-repeat;
+  background-position: left 20px center;
+  background-size: 25px;
   font-size: 14px;
   height: 55px;
   border-radius: 25px;
