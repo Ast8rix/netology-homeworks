@@ -21,7 +21,7 @@ body {
   width: 244px;
   border: 1px solid #ededed;
   padding: 30px 20px;
-  
+  position: relative;
   display: flex;
   flex-direction: column;
 }
@@ -41,6 +41,10 @@ body {
   color: #ffffff;
   font-size: 14px;
   background-color: #4c1e87;
+  position: absolute;
+  z-index: 1;
+  top: 10px;
+  right: 0;
 }
 
 .product-img {

@@ -3,4 +3,34 @@
   background-image: url("https://netology-code.github.io/html-2-homeworks/popup-elements/tour-page-header/img/barcelona.jpg");
   background-repeat: no-repeat;
   background-position: center center;
+  background-size: cover;
+  background-color: #000000;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.welcome::after {
+  content: "";
+  background-color: #000000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.45;
+
+}
+
+.welcome-title {
+  z-index: 1;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.welcome-description {
+  z-index: 1;
+  position: relative;
 }
