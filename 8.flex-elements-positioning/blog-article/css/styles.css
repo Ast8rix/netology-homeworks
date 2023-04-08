@@ -11,12 +11,12 @@ body {
 }
 
 h1 {
-  font-size: 32px;
+  font-size: 32px !important;
 }
 
 a {
-  color: #2980b9;
-  text-decoration: none;
+  color: #2980b9 !important;
+  text-decoration: none !important;
 }
 
 p {
