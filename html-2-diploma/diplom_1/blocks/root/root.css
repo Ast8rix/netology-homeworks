@@ -1,0 +1,8 @@
+.root {
+  font-family: 'OpenSans', Arial, sans-serif; /* Подключаем шрифт по умолчанию */
+  background-color: #2A2C2F; /* Цвет фона */
+  width: 100%; /* Ширина страницы */
+  max-width: 1660px; /* Максимальная ширина страницы */
+  min-width: 320px; /* Минимальная ширина страницы */
+  margin: 0 auto; /* Выравнивание по центру */
+}

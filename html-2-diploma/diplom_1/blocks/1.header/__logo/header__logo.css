@@ -1,0 +1,6 @@
+.header__logo {
+  width: 185px; /* ширина блока*/
+  height: 40px; /* высота блока */
+  z-index: 1;
+  position: relative;
+}
