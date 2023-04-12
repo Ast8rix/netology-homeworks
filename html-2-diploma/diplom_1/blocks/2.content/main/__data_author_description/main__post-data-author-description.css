@@ -1,0 +1,23 @@
+.main__post-data {
+  color: #999999;
+  display: inline-block;
+  margin-top: 26px;
+  font-family: inherit;
+  font-size: 12px;
+}
+
+.main__post-author {
+  margin-left: 15px;
+  font-weight: bold;
+  color: #000000;
+  display: inline-block;
+  margin-top: 26px;
+  font-family: inherit;
+  font-size: 12px;
+}
+
+.main__post-description {
+  font-family: inherit;
+  font-size: 15px;
+  line-height: 22px;
+}

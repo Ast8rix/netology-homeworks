@@ -9,6 +9,11 @@
   margin-right: 35px;
 }
 
+.header__menu-item:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
 .header__menu-item a {
   font-size: 13px;
   color: #ffffff ;

@@ -1,0 +1,12 @@
+.main__post-title a {
+  display: block;
+  margin-top: 15px;
+  text-decoration: none;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #000000;
+  text-decoration: none;
+}
