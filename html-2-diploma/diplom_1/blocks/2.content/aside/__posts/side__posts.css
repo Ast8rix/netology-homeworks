@@ -1,0 +1,7 @@
+.side__posts {
+  display: block;
+}
+
+.side__posts:nth-child(n + 2) {
+  margin-top: 58px;
+}

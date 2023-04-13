@@ -10,6 +10,7 @@
 @import url(../blocks/1.header/__menu/header__menu.css);
 @import url(../blocks/1.header/__menu/_item/header__menu-item.css);
 @import url(../blocks/1.header/__title/header__title.css);
+
 @import url(../blocks/2.content/content.css);
 @import url(../blocks/2.content/main/main.css);
 @import url(../blocks/2.content/main/__post/main__post.css);
@@ -18,85 +19,12 @@
 @import url(../blocks/2.content/main/__hashtags/main__post-hashtags.css);
 @import url(../blocks/2.content/main/__title/main__post-title.css);
 @import url(../blocks/2.content/main/__data_author_description/main__post-data-author-description.css);
+@import url(../blocks/2.content/aside/side__bar.css);
+@import url(../blocks/2.content/aside/__posts/side__posts.css);
+@import url(../blocks/2.content/aside/__posts/__article-posts/side__article.css);
+@import url(../blocks/2.content/aside/__search/search__section.css);
+@import url(../blocks/2.content/aside/__subscribe/section__subscribe.css);
+@import url(../blocks/2.content/aside/__tags/section__tags.css);
+@import url(../blocks/2.content/aside/__categories/categories__section.css);
 
-.side__bar {
-  max-width: 275px;
-  margin-left: 120px;
-}
-
-.side__posts {
-  display: block;
-}
-
-.side__posts:nth-child(n+2) {
-  margin-top: 58px;
-}
-
-.side__posts-header {
-  margin-bottom: 43px;
-  position: relative;
-}
-
-.side__posts-header::after {
-  content: " ______ ";
-  margin-right: auto;
-  margin-left: auto;
-  display: block;
-  font-size: 26px;
-  color: #999966;
-  opacity: 0.4;
-  position: absolute;
-  top: 0;
-  left: 105px;
-}
-
-.side__posts-name {
-  margin-top: 0;
-  text-align: center;
-  font-size: 14px;
-  font-weight: bold;
-  color: #000000;
-  text-transform: uppercase;
-}
-
-.side__post-article {
-  display: flex;
-  box-sizing: border-box;
-}
-
-.side__post-article:nth-child(n+2) {
-  margin-top: 22px;
-}
-
-.side__post-img {
-  max-width: 70px;
-}
-
-.side__post-article-list {
-  margin-left: 24px;
-}
-
-.side__post-data {
-  color: #999999;
-  margin-top: 26px;
-  font-family: inherit;
-  font-size: 12px;
-}
-
-.side__post-title {
-  display: block;
-  font-family: inherit;
-  font-size: 14px;
-  font-weight: bold;
-  line-height: 18px;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: #000000;
-  margin-top: 10px;
-}
-
-.side__post-title:hover {
-  opacity: 0.4;
-  cursor: pointer;
-  color: #999966;
-}
+@import url(../blocks/3.footer/footer.css);
